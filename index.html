@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    .box2 {
+        width: 280px;
+        height: 385px;
+        background:#f7c387 ;
+        margin: 50px 321px;
+        padding: 50px;
+
+
+    }
+
+    .box{
+        width: 260px;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #106fcc;
+        text-align: center;
+        border-bottom-left-radius: 70px;
+        border-top-right-radius: 70px;
+    }
+    .box h1{
+        color: #00cfd9;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .box input[type = "text"]{
+        border: 0;
+        background: none;
+        display: inline-block;
+        margin: 10px auto;
+        text-align: center;
+        border: 3px solid #00cfd9;
+        padding: 14px 10px;
+        width: 235px;
+        outline: none;
+        color: #00cfd9;
+        border-radius: 30px;
+        transition: 0.15s;
+    }
+
+    .box input[type = "password"]{
+        border: 0;
+        background: none;
+        display: inline-block;
+        margin: 10px auto;
+        text-align: center;
+        border: 3px solid #00cfd9;
+        padding: 14px 10px;
+        width: 235px;
+        outline: none;
+        color: #b600d9;
+        border-radius: 30px;
+        transition: 0.15s;
+    }
+
+
+    .box input[type = "text"]:focus,[type = "password"]:focus,[type = "email"]:focus{
+        width: 210px;
+        border-color: #a200d9;
+    }
+    .box input[type = "submit"] {
+        border: 0;
+        background: none;
+        display: inline-block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px solid #d98c3d;
+        padding: 14px 60px;
+        outline: none;
+        color: #d98c3d;
+        border-radius: 30px;
+        transition: 0.15s;
+        cursor: pointer;
+    }
+    .box input[type = "submit"]:hover {
+        background: #D92DC5;
+    }
+
+    .box input[type = "text"]:hover {
+        background: #7934d9;
+        width: 210px;
+    }
+    .box input[type = "password"]:hover {
+        background: #3887d9;
+        width: 210px;
+    }
+
+
+    html, body {
+        height: 100%;
+    }
+
+    body{
+        margin: 0;
+
+        background: linear-gradient(to top, #00cfd9, #a200d9);
+        background-size: 200% 200%;
+        animation: gradient 7s ease infinite;
+    }
+
+    a{
+        text-decoration: none;
+        color: #b700ff;
+        font-family: "montserrat", sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        transition: 0.8s;
+        display: block;
+        border-radius: 25px;
+        font-size:30px;
+    }
+     a:hover{
+        background: rgba(182, 0, 217, 0.9);
+    }
+
+    .box{
+        background: linear-gradient(to bottom, #00cfd9, #a200d9);
+    }
+
+
+</style>
+
+<body>
+
+
+<form class="box" action="index.html" method="post">
+    <h1>Login</h1>
+
+    <input type="text" name="" placeholder="Username">
+    <input type="password" name="" placeholder="Password">
+
+    <a href="main.html"><b>Sign up!</b></a>
+</form>
+
+
+
+</body>
+</html>
